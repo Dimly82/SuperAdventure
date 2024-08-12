@@ -1,4 +1,6 @@
-﻿namespace SuperAdventure {
+﻿using SuperAdventure.Properties;
+
+namespace SuperAdventure {
     partial class SuperAdventure {
         /// <summary>
         /// Required designer variable.
@@ -55,7 +57,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Hit Points:";
+            this.label1.Text = Resources.SuperAdventure_InitializeComponent_Hit_Points_;
             // 
             // label2
             // 
@@ -63,7 +65,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 23);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Gold:";
+            this.label2.Text = Resources.SuperAdventure_InitializeComponent_Gold_;
             // 
             // label3
             // 
@@ -71,7 +73,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 23);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Experience:";
+            this.label3.Text = Resources.SuperAdventure_InitializeComponent_Experience_;
             // 
             // label4
             // 
@@ -79,7 +81,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 23);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Level:";
+            this.label4.Text = Resources.SuperAdventure_InitializeComponent_Level_;
             // 
             // lblHitPoints
             // 
@@ -111,11 +113,11 @@
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(617, 531);
+            this.label5.Location = new System.Drawing.Point(610, 531);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 23);
+            this.label5.Size = new System.Drawing.Size(105, 23);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Select Action";
+            this.label5.Text = Resources.SuperAdventure_InitializeComponent_Select_Action;
             // 
             // cboWeapons
             // 
@@ -135,21 +137,21 @@
             // 
             // btnUseWeapon
             // 
-            this.btnUseWeapon.Location = new System.Drawing.Point(620, 559);
+            this.btnUseWeapon.Location = new System.Drawing.Point(610, 559);
             this.btnUseWeapon.Name = "btnUseWeapon";
-            this.btnUseWeapon.Size = new System.Drawing.Size(75, 23);
+            this.btnUseWeapon.Size = new System.Drawing.Size(100, 23);
             this.btnUseWeapon.TabIndex = 11;
-            this.btnUseWeapon.Text = "Use";
+            this.btnUseWeapon.Text = Resources.SuperAdventure_InitializeComponent_Use;
             this.btnUseWeapon.UseVisualStyleBackColor = true;
             this.btnUseWeapon.Click += new System.EventHandler(this.btnUseWeapon_Click);
             // 
             // btnUsePotion
             // 
-            this.btnUsePotion.Location = new System.Drawing.Point(620, 593);
+            this.btnUsePotion.Location = new System.Drawing.Point(610, 593);
             this.btnUsePotion.Name = "btnUsePotion";
-            this.btnUsePotion.Size = new System.Drawing.Size(75, 23);
+            this.btnUsePotion.Size = new System.Drawing.Size(100, 23);
             this.btnUsePotion.TabIndex = 12;
-            this.btnUsePotion.Text = "Use";
+            this.btnUsePotion.Text = Resources.SuperAdventure_InitializeComponent_Use;
             this.btnUsePotion.UseVisualStyleBackColor = true;
             this.btnUsePotion.Click += new System.EventHandler(this.btnUsePotion_Click);
             // 
@@ -159,7 +161,7 @@
             this.btnNorth.Name = "btnNorth";
             this.btnNorth.Size = new System.Drawing.Size(75, 23);
             this.btnNorth.TabIndex = 13;
-            this.btnNorth.Text = "North";
+            this.btnNorth.Text = Resources.SuperAdventure_InitializeComponent_North;
             this.btnNorth.UseVisualStyleBackColor = true;
             this.btnNorth.Click += new System.EventHandler(this.btnNorth_Click);
             // 
@@ -169,7 +171,7 @@
             this.btnEast.Name = "btnEast";
             this.btnEast.Size = new System.Drawing.Size(75, 23);
             this.btnEast.TabIndex = 14;
-            this.btnEast.Text = "East";
+            this.btnEast.Text = Resources.SuperAdventure_InitializeComponent_East;
             this.btnEast.UseVisualStyleBackColor = true;
             this.btnEast.Click += new System.EventHandler(this.btnEast_Click);
             // 
@@ -179,7 +181,7 @@
             this.btnSouth.Name = "btnSouth";
             this.btnSouth.Size = new System.Drawing.Size(75, 23);
             this.btnSouth.TabIndex = 15;
-            this.btnSouth.Text = "South";
+            this.btnSouth.Text = Resources.SuperAdventure_InitializeComponent_South;
             this.btnSouth.UseVisualStyleBackColor = true;
             this.btnSouth.Click += new System.EventHandler(this.btnSouth_Click);
             // 
@@ -189,7 +191,7 @@
             this.btnWest.Name = "btnWest";
             this.btnWest.Size = new System.Drawing.Size(75, 23);
             this.btnWest.TabIndex = 16;
-            this.btnWest.Text = "West";
+            this.btnWest.Text = Resources.SuperAdventure_InitializeComponent_West;
             this.btnWest.UseVisualStyleBackColor = true;
             this.btnWest.Click += new System.EventHandler(this.btnWest_Click);
             // 

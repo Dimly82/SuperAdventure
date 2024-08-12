@@ -63,7 +63,13 @@
             <AutoGen>True</AutoGen>
             <DependentUpon>Resources.resx</DependentUpon>
         </Compile>
+        <EmbeddedResource Include="Properties\Resources.ru.resx">
+          <DependentUpon>Resources.resx</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Include="SuperAdventure.resx">
+          <DependentUpon>SuperAdventure.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="SuperAdventure.ru.resx">
           <DependentUpon>SuperAdventure.cs</DependentUpon>
         </EmbeddedResource>
         <None Include="Properties\Settings.settings">

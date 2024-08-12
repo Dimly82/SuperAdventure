@@ -1,0 +1,119 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="SuperAdventure_MoveTo_You_receive__" xml:space="preserve">
+        <value>Ты получаешь: </value>
+    </data>
+    <data name="SuperAdventure_MoveTo__experience_points" xml:space="preserve">
+        <value> очков опыта</value>
+    </data>
+    <data name="SuperAdventure_MoveTo__gold" xml:space="preserve">
+        <value> золота</value>
+    </data>
+    <data name="SuperAdventure_MoveTo_You_see_a_" xml:space="preserve">
+        <value>Ты видишь </value>
+    </data>
+    <data name="SuperAdventure_UpdateInventoryListInUI_Name" xml:space="preserve">
+        <value>Название</value>
+    </data>
+    <data name="SuperAdventure_UpdateQuestListInUI_Done_" xml:space="preserve">
+        <value>Готово?</value>
+    </data>
+    <data name="SuperAdventure_MoveTo_You_must_have_a_" xml:space="preserve">
+        <value>У тебя должен быть </value>
+    </data>
+    <data name="SuperAdventure_MoveTo__to_enter_this_location_" xml:space="preserve">
+        <value> чтобы пройти дальше.</value>
+    </data>
+    <data name="SuperAdventure_MoveTo_You_complete_the__" xml:space="preserve">
+        <value>Ты завершил квест '</value>
+    </data>
+    <data name="SuperAdventure_MoveTo___quest_" xml:space="preserve">
+        <value>'</value>
+    </data>
+    <data name="SuperAdventure_MoveTo_You_receive_the_" xml:space="preserve">
+        <value>Ты получил квест </value>
+    </data>
+    <data name="SuperAdventure_MoveTo_To_complete_it__return_with_" xml:space="preserve">
+        <value>Чтобы его завершить, вернись с: </value>
+    </data>
+    <data name="SuperAdventure_UpdateInventoryListInUI_Quantity" xml:space="preserve">
+        <value>Количество</value>
+    </data>
+    <data name="SuperAdventure_btnUseWeapon_Click_You_hit_the_" xml:space="preserve">
+        <value>Ты поранил </value>
+    </data>
+    <data name="SuperAdventure_btnUseWeapon_Click__for_" xml:space="preserve">
+        <value> на </value>
+    </data>
+    <data name="SuperAdventure_btnUseWeapon_Click__points_" xml:space="preserve">
+        <value> здоровья.</value>
+    </data>
+    <data name="SuperAdventure_btnUseWeapon_Click_You_defeated_the_" xml:space="preserve">
+        <value>Ты победил </value>
+    </data>
+    <data name="SuperAdventure_btnUseWeapon_Click_You_receive_" xml:space="preserve">
+        <value>Ты получил </value>
+    </data>
+    <data name="SuperAdventure_btnUseWeapon_Click_You_loot_" xml:space="preserve">
+        <value>Ты собрал </value>
+    </data>
+    <data name="SuperAdventure_btnUseWeapon_Click__did_" xml:space="preserve">
+        <value> нанес </value>
+    </data>
+    <data name="SuperAdventure_btnUseWeapon_Click__points_of_damage_" xml:space="preserve">
+        <value> урона.</value>
+    </data>
+    <data name="SuperAdventure_btnUseWeapon_Click__killed_you_" xml:space="preserve">
+        <value> убил тебя.</value>
+    </data>
+    <data name="SuperAdventure_btnUsePotion_Click_You_drink_a_" xml:space="preserve">
+        <value>Ты выпил </value>
+    </data>
+    <data name="SuperAdventure_btnUseWeapon_Click_The_" xml:space="preserve">
+        <value>‎</value>
+    </data>
+    <data name="SuperAdventure_MoveTo__quest_" xml:space="preserve">
+        <value>‎</value>
+    </data>
+    <data name="SuperAdventure_InitializeComponent_Hit_Points_" xml:space="preserve">
+        <value>Очки здоровья: </value>
+    </data>
+    <data name="SuperAdventure_InitializeComponent_Gold_" xml:space="preserve">
+        <value>Золото: </value>
+    </data>
+    <data name="SuperAdventure_InitializeComponent_Experience_" xml:space="preserve">
+        <value>Опыт: </value>
+    </data>
+    <data name="SuperAdventure_InitializeComponent_Level_" xml:space="preserve">
+        <value>Уровень: </value>
+    </data>
+    <data name="SuperAdventure_InitializeComponent_Select_Action" xml:space="preserve">
+        <value>Выбрать действие</value>
+    </data>
+    <data name="SuperAdventure_InitializeComponent_Use" xml:space="preserve">
+        <value>Использовать</value>
+    </data>
+    <data name="SuperAdventure_InitializeComponent_North" xml:space="preserve">
+        <value>Север</value>
+    </data>
+    <data name="SuperAdventure_InitializeComponent_East" xml:space="preserve">
+        <value>Восток</value>
+    </data>
+    <data name="SuperAdventure_InitializeComponent_South" xml:space="preserve">
+        <value>Юг</value>
+    </data>
+    <data name="SuperAdventure_InitializeComponent_West" xml:space="preserve">
+        <value>Запад</value>
+    </data>
+</root>

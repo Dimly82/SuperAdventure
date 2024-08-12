@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,114 +112,9 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="SuperAdventure_MoveTo_You_receive__" xml:space="preserve">
-    <value>You receive: </value>
-  </data>
-  <data name="SuperAdventure_MoveTo__experience_points" xml:space="preserve">
-    <value> experience points</value>
-  </data>
-  <data name="SuperAdventure_MoveTo__gold" xml:space="preserve">
-    <value> gold</value>
-  </data>
-  <data name="SuperAdventure_MoveTo_You_see_a_" xml:space="preserve">
-    <value>You see a </value>
-  </data>
-  <data name="SuperAdventure_UpdateInventoryListInUI_Name" xml:space="preserve">
-    <value>Name</value>
-  </data>
-  <data name="SuperAdventure_UpdateQuestListInUI_Done_" xml:space="preserve">
-    <value>Done?</value>
-  </data>
-  <data name="SuperAdventure_MoveTo_You_must_have_a_" xml:space="preserve">
-    <value>You must have a </value>
-  </data>
-  <data name="SuperAdventure_MoveTo__to_enter_this_location_" xml:space="preserve">
-    <value> to enter this location.</value>
-  </data>
-  <data name="SuperAdventure_MoveTo_You_complete_the__" xml:space="preserve">
-    <value>You complete the '</value>
-  </data>
-  <data name="SuperAdventure_MoveTo___quest_" xml:space="preserve">
-    <value>' quest.</value>
-  </data>
-  <data name="SuperAdventure_MoveTo_You_receive_the_" xml:space="preserve">
-    <value>You receive the </value>
-  </data>
-  <data name="SuperAdventure_MoveTo__quest_" xml:space="preserve">
-    <value> quest.</value>
-  </data>
-  <data name="SuperAdventure_MoveTo_To_complete_it__return_with_" xml:space="preserve">
-    <value>To complete it, return with:</value>
-  </data>
-  <data name="SuperAdventure_UpdateInventoryListInUI_Quantity" xml:space="preserve">
-    <value>Quantity</value>
-  </data>
-  <data name="SuperAdventure_btnUseWeapon_Click_You_hit_the_" xml:space="preserve">
-    <value>You hit the </value>
-  </data>
-  <data name="SuperAdventure_btnUseWeapon_Click__for_" xml:space="preserve">
-    <value> for </value>
-  </data>
-  <data name="SuperAdventure_btnUseWeapon_Click__points_" xml:space="preserve">
-    <value> points.</value>
-  </data>
-  <data name="SuperAdventure_btnUseWeapon_Click_You_defeated_the_" xml:space="preserve">
-    <value>You defeated the </value>
-  </data>
-  <data name="SuperAdventure_btnUseWeapon_Click_You_receive_" xml:space="preserve">
-    <value>You receive </value>
-  </data>
-  <data name="SuperAdventure_btnUseWeapon_Click_You_loot_" xml:space="preserve">
-    <value>You loot </value>
-  </data>
-  <data name="SuperAdventure_btnUseWeapon_Click_The_" xml:space="preserve">
-    <value>The </value>
-  </data>
-  <data name="SuperAdventure_btnUseWeapon_Click__did_" xml:space="preserve">
-    <value> did </value>
-  </data>
-  <data name="SuperAdventure_btnUseWeapon_Click__points_of_damage_" xml:space="preserve">
-    <value> points of damage.</value>
-  </data>
-  <data name="SuperAdventure_btnUseWeapon_Click__killed_you_" xml:space="preserve">
-    <value> killed you.</value>
-  </data>
-  <data name="SuperAdventure_btnUsePotion_Click_You_drink_a_" xml:space="preserve">
-    <value>You drink a </value>
-  </data>
-  <data name="SuperAdventure_InitializeComponent_Hit_Points_" xml:space="preserve">
-    <value>Hit Points:</value>
-  </data>
-  <data name="SuperAdventure_InitializeComponent_Gold_" xml:space="preserve">
-    <value>Gold:</value>
-  </data>
-  <data name="SuperAdventure_InitializeComponent_Experience_" xml:space="preserve">
-    <value>Experience:</value>
-  </data>
-  <data name="SuperAdventure_InitializeComponent_Level_" xml:space="preserve">
-    <value>Level:</value>
-  </data>
-  <data name="SuperAdventure_InitializeComponent_Select_Action" xml:space="preserve">
-    <value>Select Action</value>
-  </data>
-  <data name="SuperAdventure_InitializeComponent_Use" xml:space="preserve">
-    <value>Use</value>
-  </data>
-  <data name="SuperAdventure_InitializeComponent_North" xml:space="preserve">
-    <value>North</value>
-  </data>
-  <data name="SuperAdventure_InitializeComponent_East" xml:space="preserve">
-    <value>East</value>
-  </data>
-  <data name="SuperAdventure_InitializeComponent_South" xml:space="preserve">
-    <value>South</value>
-  </data>
-  <data name="SuperAdventure_InitializeComponent_West" xml:space="preserve">
-    <value>West</value>
-  </data>
 </root>

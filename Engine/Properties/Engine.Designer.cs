@@ -38,7 +38,7 @@ namespace Engine {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Engine.Engine", typeof(Engine).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Engine.Properties.Engine", typeof(Engine).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -56,6 +56,411 @@ namespace Engine {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Adventurer pass.
+        /// </summary>
+        internal static string World_PopulateItems_Adventurer_pass {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Adventurer_pass", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Adventurer passes.
+        /// </summary>
+        internal static string World_PopulateItems_Adventurer_passes {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Adventurer_passes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Club.
+        /// </summary>
+        internal static string World_PopulateItems_Club {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Club", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clubs.
+        /// </summary>
+        internal static string World_PopulateItems_Clubs {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Clubs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Healing potion.
+        /// </summary>
+        internal static string World_PopulateItems_Healing_potion {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Healing_potion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Healing potions.
+        /// </summary>
+        internal static string World_PopulateItems_Healing_potions {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Healing_potions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Piece of fur.
+        /// </summary>
+        internal static string World_PopulateItems_Piece_of_fur {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Piece_of_fur", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pieces of fur.
+        /// </summary>
+        internal static string World_PopulateItems_Pieces_of_fur {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Pieces_of_fur", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rat tail.
+        /// </summary>
+        internal static string World_PopulateItems_Rat_tail {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Rat_tail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rat tails.
+        /// </summary>
+        internal static string World_PopulateItems_Rat_tails {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Rat_tails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rusty sword.
+        /// </summary>
+        internal static string World_PopulateItems_Rusty_sword {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Rusty_sword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rusty swords.
+        /// </summary>
+        internal static string World_PopulateItems_Rusty_swords {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Rusty_swords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Snake fang.
+        /// </summary>
+        internal static string World_PopulateItems_Snake_fang {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Snake_fang", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Snake fangs.
+        /// </summary>
+        internal static string World_PopulateItems_Snake_fangs {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Snake_fangs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Snakeskin.
+        /// </summary>
+        internal static string World_PopulateItems_Snakeskin {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Snakeskin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Snakeskins.
+        /// </summary>
+        internal static string World_PopulateItems_Snakeskins {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Snakeskins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spider fang.
+        /// </summary>
+        internal static string World_PopulateItems_Spider_fang {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Spider_fang", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spider fangs.
+        /// </summary>
+        internal static string World_PopulateItems_Spider_fangs {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Spider_fangs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spider silk.
+        /// </summary>
+        internal static string World_PopulateItems_Spider_silk {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Spider_silk", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spider silks.
+        /// </summary>
+        internal static string World_PopulateItems_Spider_silks {
+            get {
+                return ResourceManager.GetString("World_PopulateItems_Spider_silks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alchemist&apos;s garden.
+        /// </summary>
+        internal static string World_PopulateLocations_Alchemist_s_garden {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Alchemist_s_garden", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Many plants are growing here..
+        /// </summary>
+        internal static string World_PopulateLocations_Alchemist_s_garden_description {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Alchemist_s_garden_description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alchemist&apos;s hut.
+        /// </summary>
+        internal static string World_PopulateLocations_Alchemist_s_hut {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Alchemist_s_hut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There are many strange plants on the shelves..
+        /// </summary>
+        internal static string World_PopulateLocations_Alchemist_s_hut_description {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Alchemist_s_hut_description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bridge.
+        /// </summary>
+        internal static string World_PopulateLocations_Bridge {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Bridge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A stone bridge crosses a wide river..
+        /// </summary>
+        internal static string World_PopulateLocations_Bridge_description {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Bridge_description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Farmer&apos;s field.
+        /// </summary>
+        internal static string World_PopulateLocations_Farmer_s_field {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Farmer_s_field", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You see rows of vegetables growing here..
+        /// </summary>
+        internal static string World_PopulateLocations_Farmer_s_field_description {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Farmer_s_field_description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Farmhouse.
+        /// </summary>
+        internal static string World_PopulateLocations_Farmhouse {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Farmhouse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There is a small farmhouse, with a farmer in front..
+        /// </summary>
+        internal static string World_PopulateLocations_Farmhouse_description {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Farmhouse_description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Forest.
+        /// </summary>
+        internal static string World_PopulateLocations_Forest {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Forest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You see spider webs covering covering the trees in this forest..
+        /// </summary>
+        internal static string World_PopulateLocations_Forest_description {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Forest_description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Guard post.
+        /// </summary>
+        internal static string World_PopulateLocations_Guard_post {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Guard_post", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There is a large, tough-looking guard here..
+        /// </summary>
+        internal static string World_PopulateLocations_Guard_post_description {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Guard_post_description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Home.
+        /// </summary>
+        internal static string World_PopulateLocations_Home {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Home", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your house. You really need to clean up the place..
+        /// </summary>
+        internal static string World_PopulateLocations_Home_description {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Home_description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Town square.
+        /// </summary>
+        internal static string World_PopulateLocations_Town_square {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Town_square", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You see a fountain..
+        /// </summary>
+        internal static string World_PopulateLocations_Town_square_description {
+            get {
+                return ResourceManager.GetString("World_PopulateLocations_Town_square_description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Giant spider.
+        /// </summary>
+        internal static string World_PopulateMonsters_Giant_spider {
+            get {
+                return ResourceManager.GetString("World_PopulateMonsters_Giant_spider", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rat.
+        /// </summary>
+        internal static string World_PopulateMonsters_Rat {
+            get {
+                return ResourceManager.GetString("World_PopulateMonsters_Rat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Snake.
+        /// </summary>
+        internal static string World_PopulateMonsters_Snake {
+            get {
+                return ResourceManager.GetString("World_PopulateMonsters_Snake", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clear the alchemist&apos;s garden.
+        /// </summary>
+        internal static string World_PopulateQuests_Clear_the_alchemist_s_garden {
+            get {
+                return ResourceManager.GetString("World_PopulateQuests_Clear_the_alchemist_s_garden", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kill rats in the alchemist&apos;s garden and bring back 3 rat tails. You will receive a healing potion and 10 gold pieces..
+        /// </summary>
+        internal static string World_PopulateQuests_Clear_the_alchemist_s_garden_reward {
+            get {
+                return ResourceManager.GetString("World_PopulateQuests_Clear_the_alchemist_s_garden_reward", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clear the farmer&apos;s field.
+        /// </summary>
+        internal static string World_PopulateQuests_Clear_the_farmer_s_field {
+            get {
+                return ResourceManager.GetString("World_PopulateQuests_Clear_the_farmer_s_field", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kill snakes in the farmer&apos;s field and bring back 3 snake fangs. You will receive an adventurer&apos;s pass and 20 gold pieces..
+        /// </summary>
+        internal static string World_PopulateQuests_Clear_the_farmer_s_field_reward {
+            get {
+                return ResourceManager.GetString("World_PopulateQuests_Clear_the_farmer_s_field_reward", resourceCulture);
             }
         }
     }
